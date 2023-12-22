@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: grey;
+    padding: 10px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    font-size: 200%;
+    color: white;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 150%;
+}
+
+p {
+    margin: 10px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work h2 {
+    height: 1000px;
+    background-color: white;
+    border-right: 5px solid black;
+    padding: 10px
+}
+
+.work-cards {
+    display: flex;
+    
+}
