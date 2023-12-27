@@ -12,9 +12,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: grey;
+    background: rgb(75, 75, 75);
     padding: 10px;
-    height: 100px;
+    height: 120px;
 }
 
 header img {
@@ -32,14 +32,15 @@ nav {
 nav a {
     margin-left: 15px;
     text-decoration: none;
-    color: white;
+    color: lightblue;
     padding: 5px;
     text-align: right;
+    border-bottom: 2px solid lightblue;
 }
 
 header h1 {
     font-size: 200%;
-    color: white;
+    color: lightblue;
     padding: 10px;
 }
 
@@ -51,9 +52,16 @@ header h1 {
 h2 {
     margin: 10px;
     font-size: 150%;
+    color: rgb(75, 75, 75);
 }
 
-p {
+.about-me {
+    display: flex;
+    padding: 10px 0 0;
+}
+
+.about-me p {
+    padding: 5px 0 5px;
     margin: 10px;
 }
 
@@ -64,22 +72,33 @@ p {
 .work h2 {
     padding-right: 50px;
     background-color: white;
-    border-right: 5px solid black;
+    border-right: 5px solid rgb(75, 75, 75);
     padding-right: 10px;
     /* margin-right: 20px; */
     margin-left: 50px;
 }
 
 .work-cards {
-    padding: 15px 0 15px;
+    padding: 20px 0 20px;
+    display: flex;
+    position: relative;
 }
 
-.about-me {
-    display: flex;
+.work-cards img {
+    border: 5px solid lightblue;
 }
+
+.card-text {
+    background: lightblue;
+    padding: 5px;
+    position: absolute;
+    top: 175px;
+}
+
+
 
 .about-me h2 {
-    border-right: 5px solid black;
+    border-right: 5px solid rgb(75, 75, 75);
     padding: 10px;
     margin-left: 30px;
     text-align: right;
@@ -96,8 +115,18 @@ p {
 }
 
 .contact-me h2 {
-    border-right: 5px solid black;
+    border-right: 5px solid rgb(75, 75, 75);
     padding: 10px;
     flex-wrap: wrap;
     text-align: right;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact-info p, a {
+    margin: 10px;
 }
