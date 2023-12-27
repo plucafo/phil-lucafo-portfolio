@@ -14,12 +14,12 @@ header {
     align-items: center;
     background: rgb(75, 75, 75);
     padding: 10px;
-    height: 120px;
+    height: 90px;
 }
 
 header img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     object-fit: cover;
     padding: 8px;
@@ -36,6 +36,7 @@ nav a {
     padding: 5px;
     text-align: right;
     border-bottom: 2px solid lightblue;
+
 }
 
 header h1 {
@@ -49,12 +50,6 @@ header h1 {
     align-items: center;
 }
 
-h2 {
-    margin: 10px;
-    font-size: 150%;
-    color: rgb(75, 75, 75);
-}
-
 .about-me {
     display: flex;
     padding: 10px 0 0;
@@ -65,6 +60,15 @@ h2 {
     margin: 10px;
 }
 
+.about-me h2 {
+    border-right: 3px solid rgb(75, 75, 75);
+    padding: 10px;
+    margin: 10px 10px 10px 30px;
+    font-size: 150%;
+    color: rgb(75, 75, 75);
+    text-align: right;
+}
+
 .work {
     display: flex;
 }
@@ -72,20 +76,27 @@ h2 {
 .work h2 {
     padding-right: 50px;
     background-color: white;
-    border-right: 5px solid rgb(75, 75, 75);
+    border-right: 3px solid rgb(75, 75, 75);
     padding-right: 10px;
-    /* margin-right: 20px; */
-    margin-left: 50px;
+    margin: 10px 10px 10px 50px;
+    font-size: 150%;
+    color: rgb(75, 75, 75)
 }
 
 .work-cards {
     padding: 20px 0 20px;
     display: flex;
     position: relative;
+    margin: 0 5px 0;
 }
 
 .work-cards img {
     border: 5px solid lightblue;
+    
+}
+
+#top-card {
+    flex: 0 0 100%;
 }
 
 .card-text {
@@ -93,40 +104,42 @@ h2 {
     padding: 5px;
     position: absolute;
     top: 175px;
+    font-size: 1.2em;
 }
 
-
-
-.about-me h2 {
-    border-right: 5px solid rgb(75, 75, 75);
-    padding: 10px;
-    margin-left: 30px;
-    text-align: right;
-}
-
-.images {
+.card-images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-evenly;
+    
 }
 
 .contact-me {
     display: flex;
+    height: 100px;
 }
 
 .contact-me h2 {
-    border-right: 5px solid rgb(75, 75, 75);
+    border-right: 3px solid rgb(75, 75, 75);
     padding: 10px;
     flex-wrap: wrap;
     text-align: right;
+    margin: 10px;
+    font-size: 150%;
+    color: rgb(75, 75, 75)
 }
 
 .contact-info {
     display: flex;
     align-items: center;
     margin: 10px;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .contact-info p, a {
     margin: 10px;
+    text-decoration: none;
+    border-bottom: 2px dotted black;
+    padding: 5px;
 }
