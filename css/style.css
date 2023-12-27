@@ -59,7 +59,6 @@ p {
 
 .work {
     display: flex;
-
 }
 
 .work h2 {
@@ -67,7 +66,7 @@ p {
     background-color: white;
     border-right: 5px solid black;
     padding-right: 10px;
-    margin-right: 20px;
+    /* margin-right: 20px; */
     margin-left: 50px;
 }
 
@@ -87,7 +86,9 @@ p {
 }
 
 .images {
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .contact-me {
