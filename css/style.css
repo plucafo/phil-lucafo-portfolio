@@ -17,6 +17,14 @@ header {
     height: 100px;
 }
 
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 8px;
+}
+
 nav {
     display: flex;
 }
@@ -25,11 +33,19 @@ nav a {
     margin-left: 15px;
     text-decoration: none;
     color: white;
+    padding: 5px;
+    text-align: right;
 }
 
 header h1 {
     font-size: 200%;
     color: white;
+    padding: 10px;
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
 }
 
 h2 {
@@ -43,17 +59,44 @@ p {
 
 .work {
     display: flex;
-    flex-wrap: wrap;
+
 }
 
 .work h2 {
-    height: 1000px;
+    padding-right: 50px;
     background-color: white;
     border-right: 5px solid black;
-    padding: 10px
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-left: 50px;
 }
 
 .work-cards {
+    padding: 15px 0 15px;
+}
+
+.about-me {
     display: flex;
-    
+}
+
+.about-me h2 {
+    border-right: 5px solid black;
+    padding: 10px;
+    margin-left: 30px;
+    text-align: right;
+}
+
+.images {
+    flex-wrap: wrap;
+}
+
+.contact-me {
+    display: flex;
+}
+
+.contact-me h2 {
+    border-right: 5px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: right;
 }
