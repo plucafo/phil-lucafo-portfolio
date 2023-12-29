@@ -119,7 +119,7 @@ a:hover {
 
 .menu-links {
     position: absolute;
-    top: 100%;
+    top: 50px;
     right: 0%;
     background-color: white;
     width: fit-content;
@@ -173,11 +173,14 @@ a:hover {
 
 /* SECTIONS */
 
+.layout {
+    padding: 0px 18px;
+}
+
 #profile {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 70px
 }
 
 .profile-text {
@@ -186,4 +189,12 @@ a:hover {
     border-radius: 10px;
     text-align: center;
     border: 2px solid black;
+}
+
+.profile-pic-container {
+    /* display: flex; */
+}
+
+.profile-pic-container img {
+    max-width: 100%;
 }
