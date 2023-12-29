@@ -33,15 +33,13 @@ p {
 
 /* ANIMATED CURSOR ICON */
 
-/* .cursor {
-    position: absolute;
-    left: 27.5%;
+.cursor {
     display: inline-block;
     width: 2px;
     height: 1.2em;
     background-color: black;
     animation: blink 1.3s infinite;
-} */
+}
 
 
 
@@ -175,3 +173,17 @@ a:hover {
 
 /* SECTIONS */
 
+#profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px
+}
+
+.profile-text {
+    margin-left: 55px;
+    padding: 16px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+}
