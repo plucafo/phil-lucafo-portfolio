@@ -181,6 +181,10 @@ a:hover {
 
 /* PROFILE */
 
+.layout {
+    /* padding: 0 10px; */
+}
+
 section {
     /* padding-top: 4vh; */
     height: 100vh;
@@ -203,12 +207,13 @@ section {
 
 .profile-pic-container {
     display: flex;
+    padding: 0 15px;
 }
 
 .profile-pic-container img {
     max-width: 100%;
     width: 400px;
-    height: 400px;
+    height: auto;
 }
 
 .profile-text-p1 {
