@@ -226,7 +226,14 @@ section {
 }
 
 .about-text {
+    /* margin-left: 50px; */
+    padding: 2rem;
+    text-align: center;
+    line-height: 3;
+}
 
+.about-text h1 {
+    font-size: 3rem;
 }
 
 .my-name {
