@@ -1,3 +1,5 @@
+/* VARIABLES */
+
 /* GENERAL */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;400&display=swap');
@@ -53,6 +55,7 @@ a, .button {
 
 nav, .nav-links {
     display: flex;
+    background-color: rgb(243, 240, 240);
 }
 
 nav {
@@ -206,4 +209,22 @@ section {
     max-width: 100%;
     width: 400px;
     height: 400px;
+}
+
+.profile-text-p1 {
+    /* font-style: italic; */
+}
+
+/* ABOUT */
+
+#about,
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 240, 240);
+}
+
+.about-text {
+
 }
