@@ -186,8 +186,8 @@ a:hover {
 }
 
 section {
-    /* padding-top: 4vh; */
-    height: 100vh;
+    padding-top: 4vh;
+    height: 96vh;
 }
 
 #profile {
