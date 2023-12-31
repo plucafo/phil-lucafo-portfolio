@@ -257,7 +257,12 @@ section {
   justify-content: space-evenly;
   align-items: center;
   padding: 0 10px 0;
-  /* flex-direction: column; */
+  flex-direction: column;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -272,4 +277,8 @@ section {
 .projects-text {
     text-align: center;
     padding-top: 20px;
+}
+
+.projects-text h1 {
+    font-size: 3rem;
 }

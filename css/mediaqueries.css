@@ -19,14 +19,19 @@
 }
 
 @media (max-width: 1024px) {
-    .projects-container {
+    .cards-container {
         flex-wrap: wrap;
+        /* height: auto; */
+    }
+
+    .projects-container {
+        padding-top: 15px;
         height: auto;
     }
 }
 
 @media (max-width: 375px) {
     .projects-container {
-        padding-top: 15px;
+        padding-top: 25px;
     }
 }
