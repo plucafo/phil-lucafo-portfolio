@@ -261,8 +261,8 @@ section {
 }
 
 .cards-container {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .card {
@@ -275,10 +275,21 @@ section {
 }
 
 .projects-text {
-    text-align: center;
-    padding-top: 20px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .projects-text h1 {
-    font-size: 3rem;
+  font-size: 3rem;
+}
+
+.card h2 {
+    text-align: center;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 10px;
 }
