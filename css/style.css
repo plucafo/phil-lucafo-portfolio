@@ -284,12 +284,42 @@ section {
 }
 
 .card h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .card-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    padding: 10px 10px 20px 10px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 10px 10px 20px 10px;
+}
+
+/* CONTACT */
+
+#contact,
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: rgb(243, 240, 240);
+}
+
+.contact-container {
+  /* height: 100%; */
+}
+
+.contact-text {
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-images img {
+  width: 200px;
+  height: 200px;
 }

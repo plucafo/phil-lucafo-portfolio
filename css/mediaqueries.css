@@ -19,6 +19,10 @@
 }
 
 @media (max-width: 1024px) {
+  #projects {
+    height: auto;
+  }
+
   .cards-container {
     flex-wrap: wrap;
     /* height: auto; */
