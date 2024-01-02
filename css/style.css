@@ -88,3 +88,12 @@ footer {
 .header {
   text-align: center;
 }
+
+.content {
+  padding-top: 24px;
+}
+
+.cards {
+  display: flex;
+  gap: 2rem;
+}
