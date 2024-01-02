@@ -181,12 +181,11 @@ a:hover {
 /* PROFILE */
 
 .layout {
-  /* padding: 0 10px; */
+  padding: 3vh 15px;
 }
 
 section {
-  /* padding-top: 4vh; */
-  height: 100vh;
+  height: 94vh;
 }
 
 #profile {
@@ -206,12 +205,11 @@ section {
 
 .profile-pic-container {
   display: flex;
-  padding: 0 15px;
 }
 
 .profile-pic-container img {
-  max-width: 100%;
-  width: 400px;
+  /* max-width: 100%; */
+  width: 100%;
   height: auto;
 }
 
@@ -225,17 +223,19 @@ section {
 
 /* ABOUT */
 
-#about,
+#about {
+  background-color: rgb(243, 240, 240);
+}
+
 .about-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(243, 240, 240);
+  height: 100%;
+  
 }
 
 .about-text {
-  /* margin-left: 50px; */
-  padding: 2rem;
   text-align: center;
   line-height: 3;
 }
@@ -256,13 +256,15 @@ section {
   /* padding: 20px; */
   justify-content: space-evenly;
   align-items: center;
-  padding: 0 10px 0;
+  /* padding: 0 10px 0; */
   flex-direction: column;
 }
 
 .cards-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
 }
 
 .card {
@@ -271,7 +273,7 @@ section {
   overflow: hidden;
   box-shadow: 8px 8px 15px gray;
   position: relative;
-  margin: 30px;
+  
 }
 
 .projects-text {
@@ -296,17 +298,14 @@ section {
 
 /* CONTACT */
 
-#contact,
-.contact-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */
-  background-color: rgb(243, 240, 240);
+#contact {
+    background-color: rgb(243, 240, 240);
+    display: flex;
+    align-items: center;
 }
 
 .contact-container {
-  /* height: 100%; */
+
 }
 
 .contact-text {
@@ -321,9 +320,9 @@ section {
 .contact-icons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .contact-images img {
-  width: 200px;
-  height: 200px;
+  max-width: 200px;
 }
