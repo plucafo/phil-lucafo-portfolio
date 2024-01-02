@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Phil Lucafo's Developer Portfolio</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/mediaqueries.css" />
-  </head>
-  <body>
-    <nav id="desktop-nav">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phil Lucafo's Developer Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/mediaqueries.css" />
+</head>
+
+<body>
+  <div class="outer-container">
+    <nav class="nav-content container">
       <div class="logo">
         > Phil Lucafo
         <span class="cursor"></span>
       </div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id="hamburger-nav">
-      <div class="logo">> Phil Lucafo</div>
-      <div class="hamburger-menu">
+      <ul class="desktop-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div id="hamburger-nav">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
           <span></span>
@@ -38,7 +37,30 @@
         </div>
       </div>
     </nav>
-    <section class="section_1">section 1</section>
-    <script src="script.js"></script>
-  </body>
+    <section class="container">
+      <div class="header">
+        <h2>Hero</h2>
+        <p class="subheader">subheader text</p>
+      </div>
+    </section>
+    <section class="container about">
+      <div class="header">
+        <h2>About</h2>
+        <p class="subheader">subheader text</p>
+      </div>
+    </section>
+    <section class="container">
+      <div class="header">
+        <h2>Contact</h2>
+        <p class="subheader">subheader text</p>
+      </div>
+    </section>
+    <footer class="container">
+
+      footer
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>

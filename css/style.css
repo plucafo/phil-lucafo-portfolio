@@ -1,9 +1,12 @@
-/* VARIABLES */
-
-/* GENERAL */
-
+/* Leave this import at the top of this file */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;400&display=swap");
 
+/* VARIABLES */
+:root {
+  --gray: rgb(243, 240, 240);
+}
+
+/* GENERAL */
 @keyframes blink {
   0% {
     opacity: 0;
@@ -29,12 +32,7 @@ html {
   scroll-behavior: smooth;
 }
 
-p {
-  color: rg(85, 85, 85);
-}
-
 /* ANIMATED CURSOR ICON */
-
 .cursor {
   display: inline-block;
   width: 2px;
@@ -44,31 +42,9 @@ p {
 }
 
 /* TRANSITION */
-
 a,
 .button {
   transition: all 300ms ease;
-}
-
-/* DESKTOP NAV */
-
-nav,
-.nav-links {
-  display: flex;
-  background-color: rgb(243, 240, 240);
-}
-
-nav {
-  justify-content: space-around;
-  align-items: center;
-  height: 17vh;
-}
-
-.nav-links {
-  gap: 2rem;
-  list-style: none;
-  font-size: 1.2rem;
-  text-transform: uppercase;
 }
 
 a {
@@ -92,98 +68,23 @@ a:hover {
   cursor: default;
 }
 
-/* HAMBURGER MENU */
-
-#hamburger-nav {
-  display: none;
+footer {
+  background-color: var(--gray);
 }
 
-.hamburger-menu {
-  position: relative;
-  display: inline-block;
+.outer-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.hamburger-icon {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 24px;
-  width: 30px;
-  cursor: pointer;
+.container {
+  padding: 16px;
 }
 
-.hamburger-icon span {
-  width: 100%;
-  height: 2px;
-  background-color: black;
-  transition: all 0.3 ease-in-out;
+.about {
+  background-color: var(--gray);
 }
 
-.menu-links {
-  position: absolute;
-  top: 50px;
-  right: 0%;
-  background-color: white;
-  width: fit-content;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3 ease-in-out;
-  text-transform: uppercase;
-}
-
-.menu-links a {
-  display: block;
-  padding: 10px;
+.header {
   text-align: center;
-  font-size: 1.2rem;
-  color: black;
-  text-decoration: none;
-  transition: all 0.3 ease-in-out;
-}
-
-.menu-links li {
-  list-style: none;
-}
-
-.menu-links li:hover {
-  text-shadow: 2px 2px gray;
-}
-
-.menu-links.open {
-  max-height: 300px;
-  box-shadow: 3px 3px 10px gray;
-}
-
-.hamburger-icon.open span:first-child {
-  transform: rotate(45deg) translate(10px, 5px);
-}
-
-.hamburger-icon.open span:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger-icon.open span:last-child {
-  transform: rotate(-45deg) translate(10px, -5px);
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
-}
-
-.hamburger-icon span:first-child {
-  opacity: 1;
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
-}
-
-/* PROFILE */
-
-.layout {
-  padding: 3vh 15px;
-}
-
-section {
-  height: 94vh;
 }
