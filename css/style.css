@@ -302,10 +302,11 @@ section {
     background-color: rgb(243, 240, 240);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .contact-container {
-
+  
 }
 
 .contact-text {
@@ -321,8 +322,12 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .contact-images img {
   max-width: 200px;
 }
+
+
+/* FOOTER */
