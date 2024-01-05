@@ -36,6 +36,9 @@
 
 @media (max-width: 425px) {
   #contact {
-    height:auto;
+    height: auto;
+  }
+  .image-overlay {
+    opacity: 1;
   }
 }
