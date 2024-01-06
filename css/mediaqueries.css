@@ -38,6 +38,11 @@
   #contact {
     height: auto;
   }
+  
+  .contact-container {
+    height: auto;
+  }
+  
   .image-overlay {
     opacity: 1;
   }
