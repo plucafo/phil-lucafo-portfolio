@@ -236,7 +236,10 @@ section {
 
 .about-text {
   text-align: center;
-  line-height: 3;
+}
+
+.about-text p {
+  margin-top: 10px;
 }
 
 .about-text h1 {
@@ -252,10 +255,8 @@ section {
 .projects-container {
   height: 100%;
   display: flex;
-  /* padding: 20px; */
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  /* padding: 0 10px 0; */
   flex-direction: column;
 }
 
@@ -264,7 +265,7 @@ section {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 40px;
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
 
 .card {
@@ -286,7 +287,7 @@ section {
 
 .projects-text {
   text-align: center;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .projects-text h1 {
@@ -308,13 +309,17 @@ section {
 
 #contact {
     background-color: rgb(243, 240, 240);
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .contact-container {
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .contact-text {
