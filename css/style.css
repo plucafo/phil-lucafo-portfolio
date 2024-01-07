@@ -180,11 +180,11 @@ a:hover {
 /* PROFILE */
 
 .layout {
-  padding: 3vh 15px;
+  padding: 15px;
 }
 
 section {
-  height: 94vh;
+  height: 100vh;
 }
 
 #profile {
@@ -319,7 +319,6 @@ section {
   justify-content: center;
   align-items: center;
   height: 100%;
-  flex-wrap: wrap; /*TESTING THIS - REMOVE IF BROKEN*/
 }
 
 .contact-text {
@@ -348,7 +347,6 @@ section {
   position: relative;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /*TESTING THIS - REMOVE IF BROKEN*/
 }
 
 .image-overlay {
