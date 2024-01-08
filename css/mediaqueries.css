@@ -1,3 +1,4 @@
+/* NAV MEDIA QUERIES */
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -7,6 +8,7 @@
   }
 }
 
+/* PROFILE MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   #profile {
     flex-direction: column;
@@ -17,6 +19,7 @@
   }
 }
 
+/* PROJECTS MEDIA QUERIES */
 @media (max-width: 1349px) {
   #projects {
     height: auto;
@@ -27,6 +30,7 @@
   }
 }
 
+/* CONTACT MEDIA QUERIES */
 @media (max-width: 461px) {
   #contact {
     height: auto;
