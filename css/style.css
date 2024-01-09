@@ -282,6 +282,10 @@ section {
   gap: 40px;
 }
 
+#first-card {
+  width: 600px;
+}
+
 .card {
   box-sizing: border-box;
   overflow: hidden;
