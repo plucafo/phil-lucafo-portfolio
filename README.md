@@ -1,6 +1,6 @@
-# Horiseon README
+# Phil Lucafo's Portfolio
 
-Welcome to my (Phil Lucafo) Portfolio!
+### Welcome to my Portfolio!
 
 ## Landing Page
 
@@ -24,3 +24,7 @@ Or you can submit an issue to the [github repository](https://github.com/plucafo
 
 @Phil Lucafo
 
+## Credits
+
+Used this youtubers tutorial to help build the hamburger menu:
+https://www.youtube.com/@howtobecomeadeveloper
